@@ -48,10 +48,10 @@ public class MainActivity extends FragmentActivity {
 		getMenuInflater().inflate(R.menu.main, menu);
 		MenuItem item = menu.findItem(R.id.show_dialog);
 		item.setOnMenuItemClickListener(new OnMenuItemClickListener() {
-			
+
 			@Override
 			public boolean onMenuItemClick(MenuItem item) {
-				CountryPicker picker = CountryPicker.newInstance("Select Country");
+				CountryPicker picker = CountryPicker.newInstance("اختر دولة");
 				picker.setListener(new CountryPickerListener() {
 
 					@Override
@@ -64,7 +64,7 @@ public class MainActivity extends FragmentActivity {
 								Toast.LENGTH_SHORT).show();
 					}
 				});
-				
+
 				picker.show(getSupportFragmentManager(), "COUNTRY_PICKER");
 				return false;
 			}

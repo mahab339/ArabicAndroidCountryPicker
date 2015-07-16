@@ -4,13 +4,16 @@ AndroidCountryPicker
 ## Features
 CountryPicker is a simple fragment that can be embedded or shown as dialog. See the example to see more detail.
 
+This Arabic translated version is a fork from https://github.com/roomorama/AndroidCountryPicker .
 
-<img src="https://raw.github.com/roomorama/AndroidCountryPicker/master/screenshot/1.png" width="250">
-<img src="https://raw.github.com/roomorama/AndroidCountryPicker/master/screenshot/2.png" width="250">
+Translation was done using this script: https://github.com/mohabh/taw
+
+<img src="https://raw.github.com/mohabh/AndroidCountryPicker/master/screenshot/1.png" width="250">
+<img src="https://raw.github.com/mohabh/AndroidCountryPicker/master/screenshot/2.png" width="250">
 
 
 The functions are simple:
- 
+
 1) Allow user to search the country
 
 2) Inform client which country user has selected
@@ -31,7 +34,7 @@ transaction.commit();
 To show CountryPicker as a dialog:
 
 ```java
-CountryPicker picker = CountryPicker.newInstance("Select Country");
+CountryPicker picker = CountryPicker.newInstance("اختر دولة");
 picker.show(getSupportFragmentManager(), "COUNTRY_PICKER");
 ```
 
@@ -45,7 +48,7 @@ picker.setListener(new CountryPickerListener() {
 		// Invoke your function here
 	}
 });
-				
+
 ```
 
 ## About
