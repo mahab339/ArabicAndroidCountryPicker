@@ -4,7 +4,7 @@ AndroidCountryPicker
 ## Features
 CountryPicker is a simple fragment that can be embedded or shown as dialog. See the example to see more detail.
 
-This Arabic translated version is a fork from https://github.com/roomorama/AndroidCountryPicker .
+This Arabic translated version is a fork from https://github.com/roomorama/AndroidCountryPicker. Thanks thomasdao for this great library!
 
 Translation was done using this script: https://github.com/mohabh/taw
 
