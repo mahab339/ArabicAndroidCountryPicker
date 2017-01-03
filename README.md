@@ -9,8 +9,6 @@ This Arabic translated version is a fork from https://github.com/roomorama/Andro
 Translation was done using this script: https://github.com/mohabh/taw
 
 <img src="https://raw.github.com/mohabh/AndroidCountryPicker/master/screenshot/1.png" width="250">
-<img src="https://raw.github.com/mohabh/AndroidCountryPicker/master/screenshot/2.png" width="250">
-
 
 The functions are simple:
 
